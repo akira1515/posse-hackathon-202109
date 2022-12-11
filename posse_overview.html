@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSSE概要</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="posse_overview.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+        </script>
+
+
+</head>
+<body>
+      <!-- ヘッダー-->
+      <header class="header_whole">
+        <!-- POSSEロゴ -->
+            <a href="https://posse.anti-pattern.co.jp/">
+                <p class="header_logo"></p>
+            </a>
+        <!-- スクロールボタンの説明 -->
+            <p class="title-border">
+                POSSE入会を考えている方はこちらをクリック
+            </p>   
+        <!-- 下スクロールボタン -->
+        <div id="scroll1" class="scroll">
+            <a id="link_scroll2" href="javascript:void(0);" onclick="ScrollWindow('scroll2');">
+                <div class="circle">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </a>
+        </div>
+        <!-- ヘッダーの右部分 -->
+        <div class="header_right_whole">
+            <a class="header_right  hover_action1 " href="top_page.html">トップページ</a>
+            <a class="header_right  hover_action1 " href="work_record.html">活動記録</a>
+            <a class="header_right  hover_action1 activity" href="posse_overview.html">POSSE概要</a>
+        </div>
+
+<!--▽▽ハンバーガーメニュー▽▽-->
+      <div id="hamburger">
+          <div class="icon">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+      </div>
+<!--△△ハンバーガーメニュー△△-->
+
+
+<!--▽▽ハンバーガーメニューのリスト▽▽-->
+      <nav class="sm">
+        <ul>
+          <li><a href="">トップページ</a></li>
+          <li><a href="">活動記録</a></li>
+          <li><a href="">概要</a></li>
+
+       </ul>
+     </nav>
+<!--△△ハンバーガーメニューのリスト△△-->
+<!--△△ヘッダーリスト△△-->
+
+
+    </header>
+
+
+<!--▽▽jQuery▽▽-->
+    <script src="jquery-3.5.1.min.js"></script>
+      <script>
+        $('#hamburger').on('click', function(){
+        $('.icon').toggleClass('close');
+        $('.sm').slideToggle();
+        });
+      </script>
+<!--△△jQuery△△-->
+<!-- body --><!-- NEWS -->
+    <div class="section_whole">
+        <div class="section_news">
+            <h1 class="section_news_title_text">POSSEの日常</h1>
+            <div class="section_news_whole">
+                <article class="section_news_each">
+                    <div >
+                        <div class="section_right">
+                            <img src="S__125517866.jpg"
+                                width="284" height="160" alt="" >
+                            <div class="section_right_detail">
+                                <h2 class="section_text_main">ミートアップ</h2>
+                                <p class="section_day">毎週月曜日</p>
+                                <p class="section_text_detail">「7つの習慣」や「ワークシフト」といったビジネス書を読み、人格形成の重要性、自立と相互協力の大切さ、技術の専門性を高める必要性などを学んでいます。POSSEでは、1人でも多くのメンバーに「ITエンジニアって大変そうだけどすごくかっこいい仕事なんだ！」という憧れを持ってもらう機会になればという思いから、講演をお願いしています。また、プログラミングを大学１・２年生という早い段階から学べる有り難みを感じ、モチベーションアップに繋がったというPOSSEメンバーも多くいます。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="section_news_each">
+                    <div>
+                        <div class="section_right">
+                            <img src="S__125517856.jpg"
+                                width="284" height="160" alt="">
+                            <div class="section_right_detail">
+                                <h2 class="section_text_main">よこもく</h2>
+                                <p class="section_day">週１回</p>
+                                <p class="section_text_detail">オンライン教材での学習
+                                    N予備校やドットインストールを教材とし、週に1つ課題をこなすという流れでプログラミングを学習しています。昨今ではプログラミング学習コンテンツが充実してきており、その中からPOSSEの学習スタイルに最適な教材を外部コンテンツとして利用しています。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="section_news_each">
+                    <div>
+                        <div class="section_right">
+                            <img src="S__125517863.jpg"
+                                width="284 " height="160" alt="">
+                            <div class="section_right_detail">
+                                <h2 class="section_text_main">たてもく</h2>
+                                <p class="section_day">週１回</p>
+                                <p class="section_text_detail">縦も横も強い絆をもったつながり（独自のコネクションがある）
+                                    慶應・立教・上智大学などの様々な大学からのメンバーが集まっており、遊びや課題を乗り越えることを通じて仲を深めています。また、POSSEは生涯続くコミュニティになることを目標とし、社会人になってからも世代間の超えた繋がりのある関係を目指しています。現在、2期生を30人集めるために1期生が奮闘中！</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="section_news_each">
+                    <div>
+                        <div class="section_right">
+                            <img src="S__125517877.jpg"
+                                width="284 " height="160" alt="">
+                            <div class="section_right_detail">
+                                <h2 class="section_text_main">スぺもく</h2>
+                                <p class="section_day">週１回</p>
+                                <p class="section_text_detail">
+                                    先輩エンジニアから課題に対するフィードバックを直接もらい、課題の改善に役立てています。オンライン教材での学習でインプットを行い、理解度を確認するための課題を通してアウトプットできる場を設けています。メンバーが質問する際はどのような思考回路で考えたのか、それに対して行った行動は何かなど、ただ分からないところを聞くだけでなく「質問力」をつける練習にもなっています。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="section_news_each">
+                    <div>
+                        <div class="section_right">
+                            <img src="S__125517884.jpg"
+                                width="284" height="160" alt="">
+                            <div class="section_right_detail">
+                                <h2 class="section_text_main">飯もく</h2>
+                                <p class="section_day">月４回</p>
+                                <p class="section_text_detail">生涯続くコミュニティであってほしいという思いから、メンバー同士の関係を大切にしています。月2回のペースでリアルイベントを開催し、たこ焼きパーティやバーベキューなどのイベントを行ないました。</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+
+
+
+
+
+  <!-- 入会までの流れのステップ説明 -->
+  <div id="scroll2" class="scroll">
+    <br>
+    <br>
+    <div id="official" class="official_line">            
+    <ul class="progressbar">
+        <li class="active">公式<br>ライン<br>追加</li>
+        <li class="step_number">IT業界　キャリアセミナー</li>
+        <li class="step_number">POSSE説明会</li>
+        <li class="step_number">セット<br>アップ会</li>
+        <li class="step_number">POSSE入会</li>
+    </ul>
+    <!-- 公式line追加 -->
+            <button><a class="line_button_container" href="https://lin.ee/sQdqKjf"><i class="fab fa-line"></i>公式ラインを追加</i></a></button>
+            <div class="balloon">
+                <p>公式ラインでは、以下の詳細を閲覧になれます</p>
+            </div>
+            <img class="talk_pic" src="S__9420923.jpg" alt="">
+    </div>     
+</div>
+<!-- yohei -->
+<!-- SNSシェア（Twitter,instagram） -->
+<div class="hover_action">
+        <div class="button_block">
+            <a class="share_button share_button_facebook"
+                href="https://www.instagram.com/posse_programming/?hl=ja">instagram</a>
+            <a class="share_button share_button_bookmark"
+                href="https://twitter.com/posse_program?s=20">Twitter</a>
+        </div>
+</div>
+<!-- フッター -->
+                <!-- Footer nav -->
+                <div class="footer_nav_whole">
+                    <div class="footer_right_whole">
+                        <a class="footer_right  hover_action2 " href="/work_record.html">活動記録</a>
+                        <a class="footer_right  hover_action2 " href="/posse_overview.html">POSSE概要</a>
+                    </div>
+                    <!-- footer nav2 -->
+                    <div class="footer_nav2">
+                        <small class="footer_right2">学生プログラミング コミュニティPOSSE </small>
+                    </div>
+                </div>
+                
+            <script src="posse_overview.js"></script>        
+
+
+
+
+
+
+    
+</body>
+</html>

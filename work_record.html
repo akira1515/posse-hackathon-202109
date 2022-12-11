@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>活動記録</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="work_record.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+</head>
+<body>
+        <!-- ヘッダー-->
+        <header class="header_whole">
+            <!-- POSSEロゴ -->
+                <a href="https://posse.anti-pattern.co.jp/">
+                    <p class="header_logo"></p>
+                </a>
+            <!-- スクロールボタンの説明 -->
+                <p class="title-border">
+                    POSSE入会を考えている方はこちらをクリック
+                </p>   
+            <!-- 下スクロールボタン -->
+            <div id="scroll1" class="scroll">
+                <a id="link_scroll2" href="javascript:void(0);" onclick="ScrollWindow('scroll2');">
+                    <div class="circle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </a>
+            </div>
+            <!-- ヘッダーの右部分 -->
+            <div class="header_right_whole">
+                <a class="header_right  hover_action1 " href="top_page.html">トップページ</a>
+                <a class="header_right   activity" href="work_record.html">活動記録</a>
+                <a class="header_right  hover_action1 " href="posse_overview.html">POSSE概要</a>
+            </div>
+
+            <!--▽▽ハンバーガーメニュー▽▽-->
+      <div id="hamburger">
+        <div class="icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+<!--△△ハンバーガーメニュー△△-->
+
+
+<!--▽▽ハンバーガーメニューのリスト▽▽-->
+    <nav class="sm">
+      <ul>
+        <li><a href="">トップページ</a></li>
+        <li><a href="">活動記録</a></li>
+        <li><a href="">概要</a></li>
+
+     </ul>
+   </nav>
+
+            
+        </header>
+
+    <!-- コンテンツ中身 -->
+        <div class="section">
+            <h1 class="section_title_text">PRODUCT</h1>
+    
+            <div class="section_detail">
+                <div class="containers">     
+                <div class="container" id = "loop"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+ <!-- 入会までの流れのステップ説明 -->
+ <div id="scroll2" class="scroll">
+    <br>
+    <br>
+    <div id="official" class="official_line">            
+    <ul class="progressbar">
+        <li class="active">公式<br>ライン<br>追加</li>
+        <li class="step_number">IT業界　キャリアセミナー</li>
+        <li class="step_number">POSSE説明会</li>
+        <li class="step_number">セット<br>アップ会</li>
+        <li class="step_number">POSSE入会</li>
+    </ul>
+    <!-- 公式line追加 -->
+            <button><a class="line_button_container" href="https://lin.ee/sQdqKjf"><i class="fab fa-line"></i>公式ラインを追加</i></a></button>
+            <div class="balloon">
+                <p>公式ラインでは、以下の詳細を閲覧になれます</p>
+            </div>
+            <img class="talk_pic" src="S__9420923.jpg" alt="">
+    </div>     
+</div>
+<!-- yohei -->
+<!-- SNSシェア（Twitter,instagram） -->
+<div class="hover_action">
+        <div class="button_block">
+            <a class="share_button share_button_facebook"
+                href="https://www.instagram.com/posse_programming/?hl=ja">instagram</a>
+            <a class="share_button share_button_bookmark"
+                href="https://twitter.com/posse_program?s=20">Twitter</a>
+        </div>
+</div>
+<!-- フッター -->
+                <!-- Footer nav -->
+                <div class="footer_nav_whole">
+                    <div class="footer_right_whole">
+                        <a class="footer_right  hover_action2 " href="/work_record.html">活動記録</a>
+                        <a class="footer_right  hover_action2 " href="/posse_overview.html">POSSE概要</a>
+                    </div>
+                    <!-- footer nav2 -->
+                    <div class="footer_nav2">
+                        <small class="footer_right2">学生プログラミング コミュニティPOSSE </small>
+                    </div>
+                </div>
+                
+            <script src="work_record.js"></script>      
+
+    
+    <script src="demo1.js"></script>
+</body>
+</html>
